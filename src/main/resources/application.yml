@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: repeat-submit
+  data:
+    redis:
+      host: localhost
+      database: 0
+      password: 999999
+      port: 36379
+      jedis:
+        pool:
+          max-active: 8
+          max-wait: 800
+          max-idle: 8
+          min-idle: 2
+
+server:
+  port: 9999
